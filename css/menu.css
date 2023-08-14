@@ -393,6 +393,7 @@ footer {
 
   .flex-container {
     width: 60%;
+    margin-bottom: 4rem;
   }
   .flex-container h3 {
     border: 0.5rem solid black;
