@@ -373,7 +373,7 @@ footer {
 }
 /* eklendi*/
 .footer-nav a {
-  font-size: 2rem;
+  font-size: 2.5rem;
 }
 
 .btn-uye {
@@ -389,16 +389,13 @@ footer {
 
 /* mobile media query */
 @media (max-width: 428px) {
-  html {
-    width: 100%;
-  }
   /* header section */
   body {
     margin: 0;
     padding: 0;
   }
   h1 {
-    font-size: 2rem;
+    font-size: 3.5rem;
     font-weight: 600;
   }
 
@@ -413,7 +410,7 @@ footer {
   }
 
   .header-nav a {
-    font-size: 1.5rem;
+    font-size: 2.5rem;
   }
 
   .social-media {
@@ -431,7 +428,7 @@ footer {
   }
 
   h2 {
-    font-size: 2.5rem;
+    font-size: 3.5rem;
   }
   .yemek-images {
     flex-direction: column;
@@ -511,7 +508,6 @@ footer {
   footer {
     height: 23rem;
     padding-top: 2.5vh;
-    font-size: 2rem;
   }
 
   .footer-div {

@@ -303,7 +303,7 @@ footer {
 }
 /* eklendi*/
 .footer-nav a {
-  font-size: 2rem;
+  font-size: 2.5rem;
 }
 
 .btn-uye {
@@ -337,6 +337,11 @@ footer {
     margin: 0 auto;
     text-align: center;
   }
+
+  .spacer {
+    display: none;
+  }
+
   .header-nav {
     flex-direction: column;
   }
@@ -372,19 +377,30 @@ footer {
   .yemekler-icecekler {
     flex-direction: column;
     align-items: center;
+    width: 100%;
   }
-  .space {
+  .dark-line {
     margin: 0 auto;
     background-color: black;
     height: 2rem;
     width: 80%;
     margin-bottom: 3rem;
   }
+
+  .line {
+    margin: 0 auto;
+    background-color: black;
+    height: 0.5rem;
+    width: 80%;
+  }
+
+  .flex-container {
+    width: 60%;
+  }
   .flex-container h3 {
     border: 0.5rem solid black;
     display: inline-table;
     padding: 1rem 3rem;
-    transform: translate(-20%);
     text-align: center;
   }
   .yemekler-icecekler .menu-div {
@@ -401,7 +417,7 @@ footer {
   }
   /* footer section */
   footer {
-    height: 23rem;
+    height: 26rem;
     padding-top: 2.5vh;
     font-size: 2rem;
   }
