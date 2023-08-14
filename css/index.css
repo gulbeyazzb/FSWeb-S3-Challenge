@@ -345,6 +345,11 @@ address p {
   width: 25%;
 }
 
+.contacts div {
+  display: flex;
+  flex-direction: column;
+}
+
 /*eklendi*/
 .contacts a {
   font-size: small;
@@ -493,11 +498,6 @@ footer {
   }
   .contacts h3 {
     font-size: 3rem;
-  }
-
-  .contacts div {
-    display: flex;
-    flex-direction: column;
   }
 
   /* footer section */
