@@ -358,6 +358,7 @@ footer {
   /* menu */
   .menu {
     background-image: none;
+    color: #000;
   }
   .menu-container {
     background-color: rgb(225, 239, 230);
@@ -395,7 +396,6 @@ footer {
   }
   .flex-container h3 {
     border: 0.5rem solid black;
-    display: inline-table;
     padding: 1rem 3rem;
     text-align: center;
   }
